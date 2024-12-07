@@ -5175,11 +5175,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Archana Padala\\source\\repos\\Backend\\Backend\\Backend.csproj",
+      "projectUniqueName": "C:\\Users\\Archana Padala\\source\\repos\\Archanapadala\\Backend\\Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "C:\\Users\\Archana Padala\\source\\repos\\Backend\\Backend\\Backend.csproj",
+      "projectPath": "C:\\Users\\Archana Padala\\source\\repos\\Archanapadala\\Backend\\Backend\\Backend.csproj",
       "packagesPath": "C:\\Users\\Archana Padala\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Archana Padala\\source\\repos\\Backend\\Backend\\obj\\",
+      "outputPath": "C:\\Users\\Archana Padala\\source\\repos\\Archanapadala\\Backend\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Archana Padala\\AppData\\Roaming\\NuGet\\NuGet.Config",
