@@ -1,3 +1,4 @@
+using Backend.Core.AutoMapperConfig;
 using Backend.Core.Context;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,6 +8,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("local"));
 });
+//Automapper Configuration
+builder.Services.AddAutoMapper(typeof(AutoMapperConfigProfile));
 
 
 // Add services to the container.

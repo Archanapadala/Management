@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Backend.Controllers.CompanyController",
+    "Method": "CreateCompany",
+    "RelativePath": "api/Company/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Backend.Core.Dtos.Company.CompanyCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
