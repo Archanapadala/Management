@@ -46,6 +46,47 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Backend.Controllers.CandidateController",
+    "Method": "DownloadPdfFile",
+    "RelativePath": "api/Candidate/download/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "url",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.CandidateController",
+    "Method": "GetCandidates",
+    "RelativePath": "api/Candidate/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Backend.Core.Dtos.Candidate.CandidateGetDto, Backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Backend.Controllers.CompanyController",
     "Method": "CreateCompany",
     "RelativePath": "api/Company/Create",
