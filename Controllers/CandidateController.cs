@@ -37,8 +37,15 @@ namespace Backend.Controllers
             }
 
             var resumeUrl = Guid.NewGuid().ToString() + ".pdf";
-            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "documents" , "pdfs",resumeUrl);
-             using( var stream = new FileStream(filePath, FileMode.Create))
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "documents" , "pdf",resumeUrl);
+            FileInfo fileInfo = new FileInfo(filePath);
+
+            if (!fileInfo.Exists)
+            {
+                Directory.CreateDirectory(fileInfo.Directory.FullName);
+            }
+
+            using ( var stream = new FileStream(filePath, FileMode.Create))
             {
                 await pdfFile.CopyToAsync(stream);
             }
